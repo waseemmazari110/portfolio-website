@@ -1,0 +1,51 @@
+div~p{
+
+    background-color:green;
+}
+a:link{
+    background-color:pink;
+}
+
+a:hover{
+    background-color:blue;
+}
+
+ a:active{
+    background-color:green;
+}
+
+a:visited{
+    background-color:yellow;
+} 
+
+/* p::after{
+    content: "Hello";
+    background-color:red;
+    color: aqua;
+}
+
+p::before{
+    content: "Waseem is here";
+    background-color: yellow;
+    color: red;
+}
+*/
+/* 
+p::first-line{
+    content: "Waseem has gone";
+    background-color: pink;
+    color: purple;
+}  */
+/* 
+p::first-letter{
+    content: "Waseem has gone";
+    background-color: purple;
+    color: black;
+} */
+
+
+p::selection{
+    
+    background-color: purple;
+    color: black;
+} 
